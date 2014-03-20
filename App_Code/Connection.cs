@@ -19,6 +19,5 @@ public static class Connection
 
     public static int StudentID = 1;
     public static string RoleName { get; set; }
-        public static string SecondTry { get; set; }
-
+    public string hun = "uyuu";
 }
