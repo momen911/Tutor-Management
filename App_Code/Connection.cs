@@ -13,11 +13,12 @@ public static class Connection
 {
     public static SqlConnection connect()
     {
-        SqlConnection con = new SqlConnection("Data Source=SABBIR\\SQLSERVER2012;Initial Catalog=Tutor;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Data Source=SABBIR\\SQLSERVER2012;Initial Catalog=TutorCentennial;Integrated Security=True");
         return con;
     }
 
     public static int StudentID = 1;
     public static string RoleName { get; set; }
+        public static string SecondTry { get; set; }
 
 }
