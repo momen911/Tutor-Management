@@ -5,7 +5,7 @@
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>
-        Welcome to Tutoring Management Webportal
+        Welcome to Tutoring Management Webportal&nbsp; Manage
     </h2>
     <p>
     </p>
